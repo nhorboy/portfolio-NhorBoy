@@ -65,3 +65,6 @@ npm run build
 ```sh
 npm run lint
 ```
+​//git add .
+//git commit -m "សារដែលពិពណ៌នាអំពីការផ្លាស់ប្តូរ"
+//git push 

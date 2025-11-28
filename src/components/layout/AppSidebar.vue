@@ -33,7 +33,7 @@
             <div class="mb-4">
                 <LanguageSwitcher />
             </div>
-            <p class="text-gray-400">Download <a href="#" class="text-white font-semibold">Course Code</a></p>
+            <p class="text-gray-400">Download <a href="https://github.com/nhorboy/portfolio-NhorBoy.git"  target="_blank" class="text-white font-semibold">Course Code</a></p>
         </div>
     </div>
 </template>
