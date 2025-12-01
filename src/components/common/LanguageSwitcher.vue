@@ -1,5 +1,5 @@
 <template>
-  <div class="relative inline-flex space-x-3 text-left w-full justify-center">
+  <div class="relative inline-flex space-x-3 text-left w-full justify-end">
     <button
       @click="store.setLanguage('km')"
       :class="[
