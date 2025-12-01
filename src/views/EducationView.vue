@@ -12,10 +12,10 @@
         </header>
         <!-- Education Timeline -->
         <div class="relative timeline-container">            
-            <!-- Vertical Line (Timeline Axis) -->
-            <!-- បង្ហាញតែលើ Desktop (md:) ដើម្បីរក្សារចនាបថ Timeline -->
+         <font-awesome-icon icon="fa-solid fa-person" />
             <div class="hidden md:block absolute left-4 w-1 bg-gray-200 h-full rounded-full timeline-line"></div>
             <!-- Education Items -->
+             <font-awesome-icon icon="fa-solid fa-person" />
             <div v-for="(item, index) in t.edu_school2" :key="item.id" class="flex mb-12">
                 <!-- Timeline Dot & Icon (សម្រាប់ Desktop) -->
                 <div class="hidden md:flex flex-col items-center w-8 mr-6 z-10">
@@ -58,8 +58,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- សម្រាប់ Mobile Footer មិនឲ្យបាំង Content -->
         <div class="h-16 md:hidden"></div>
     </div>
 </template>
@@ -80,7 +78,6 @@
     padding-left: 20px; /* ទុកចន្លោះសម្រាប់បន្ទាត់បញ្ឈរ */
 }
 
-/* សម្រាប់លុប Padding លើ Mobile */
 @media (max-width: 767px) {
     .timeline-container {
         padding-left: 0;

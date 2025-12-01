@@ -1,8 +1,8 @@
-##############Stucture
+## Project Stucture
 src/
 ├── components/
 │   ├── layout/
-│   │   ├── BaseLayout.vue    // រុំ Sidebar, Main Content, និង Footer Mobile
+│   │   ├── BaseLayout.vue    // Sidebar, Main Content, និង Footer Mobile
 │   │   ├── AppSidebar.vue    // Sidebar ខាងឆ្វេង (Desktop Nav, Profile, Language Switch)
 │   │   └── MobileFooterNav.vue // Footer Navigation (សម្រាប់ Mobile)
 │   ├── common/
@@ -30,11 +30,14 @@ This template should help get you started developing with Vue 3 in Vite.
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
 ## Recommended Browser Setup
+ Google-Chrom or Firefox
+## My API Portfolio get From google sheet
+ https://script.google.com/macros/s/AKfycbxLL7k1W7VW7u440xtnpU3MDmCso9KgAQKCXZ8T-pKiGjndlYpoBTFHClfctA9TYYDziA/exec
 
 - Chromium-based browsers (Chrome, Edge, Brave, etc.):
   - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
   - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
+- :
   - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
   - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
@@ -65,6 +68,7 @@ npm run build
 ```sh
 npm run lint
 ```
+# push update to get
 ​//git add .
-//git commit -m "សារដែលពិពណ៌នាអំពីការផ្លាស់ប្តូរ"
+//git commit -m " sms"
 //git push 

@@ -18,6 +18,12 @@
             <span class="footer-icon text-xl mb-0.5">&#128188;</span>
             <span class="footer-icon">{{ t.nav_experience }}</span>
         </router-link>
+
+        <router-link to="/portfolio" class="flex flex-col items-center text-xs p-1">
+            <span class="footer-icon text-xl mb-0.5">&#128188;</span>
+            <span class="footer-icon">{{ t.nav_portfolio }}</span>
+        </router-link>
+
         <router-link to="/contact" class="flex flex-col items-center text-xs p-1">
             <span class="footer-icon text-xl mb-0.5">&#128222;</span>
             <span class="footer-icon">{{ t.nav_contact }}</span>

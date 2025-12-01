@@ -15,7 +15,7 @@ const translations = {
         about_title: "សូមស្វាគមន៍មកកាន់",
         about_title_highlight: "ប្រវត្តិរូបសង្ខេបរបស់ខ្ញុំ!",
         profile_job_title: "UX/UI Designer And Full Stack Developer",        
-        contact_location: "កាលីហ្វ័រញ៉ា ស.រ.អា.",
+        contact_location: "ភ្នំពេញ, កម្ពុជា",
         about_p1: "អ្នករចនាប្រព័ន្ធឌីជីថលប្រកបដោយភាពច្នៃប្រឌិត ដែលមានចំណេះដឹងរឹងមាំទាំងផ្នែក UX/UI Design និង Graphic Design (Poster, Banner)។ ខ្ញុំមានគោលដៅក្នុងការបង្កើនបទពិសោធន៍អ្នកប្រើប្រាស់ (User Experience) តាមរយៈការរចនាដ៏ទាក់ទាញ។ ",
         about_p2: "ខ្ញុំក៏មានជំនាញក្នុង Web Development ផងដែរ ដែលអនុញ្ញាតឱ្យខ្ញុំសហការយ៉ាងរលូនជាមួយក្រុមអភិវឌ្ឍន៍ និងធានាថារាល់គំនិតរចនាត្រូវបានអនុវត្តយ៉ាងត្រឹមត្រូវទៅលើគេហទំព័រជាក់ស្តែង។",
         // Education View Content
@@ -92,6 +92,14 @@ const translations = {
         skills_title: "ជំនាញបច្ចេកទេស",
         skills_subtitle: "ការបង្ហាញពីជំនាញបច្ចេកទេស និងឧបករណ៍ដែលខ្ញុំមានជំនាញល្អ។", 
 
+        // Contact Us
+        contact_title: "ទាក់ទងមក",
+        contact_subtitle: "រាល់សំណូមពរ សំណួរ ឬមតិកែលម្អណាមួយដែលទាក់ទងនឹងសេវាកម្មរបស់យើង សូមមេត្តាបំពេញក្នុងទម្រង់បែបបទនៅខាងស្ដាំ ហើយក្រុមការងាររបស់យើងនឹងឆ្លើយតបទៅវិញឱ្យបានឆាប់បំផុត...។", 
+        last_name: "នាមត្រកូល",
+        first_name: "នាមខ្លួន",
+        email: "អ៊ីមែល",
+        message: "សាររបស់អ្នក",
+        send_message: "ផ្ញើសារ",
     },
     en: {
         // Layout/Navigation
@@ -107,7 +115,7 @@ const translations = {
         about_title: "WELCOME TO",
         about_title_highlight: "MY RESUME!",
         profile_job_title: "UX/UI Designer And Full Stack Developer",   
-        contact_location: "California, U.S.A.",
+        contact_location: "Phnom Penh, Cambodia",
         about_p1: "I am a UX/UI Designer with 8 years of experience building intuitive and engaging interfaces that drive user participation.",
         about_p2: "I believe good design should enhance people's lives, helping them navigate technology effortlessly, which is paramount in my work.",
 
@@ -134,7 +142,31 @@ const translations = {
                 icon: '&#128187;'
             }
         ],
+
+
+        // Hobbies
+        Hob_title: "Hobbies and Interests",
+        Hob_subtitle: "Hobbies in Free Time",
+        Hob: [
+            {
+                id: 1,
+                Hob_title: "Hobbies:",
+                Hob_description: "Traveling with family or playing sports on weekends to improve health and build new friendships.",                
+            },
+            {
+                id: 2,
+                Hob_title: "Learning New Things:",
+                Hob_description: "Reading books or articles about technology and new developments.",                
+            },
+            {
+                id: 3,
+                Hob_title: "Self Development:",
+                Hob_description: "Learning images, YouTube videos, and time for online courses or training to enhance skills and knowledge.",                
+            },
+        ],
         //Experience View Content
+
+        
         exp_title: "Experience",
         exp_subtitle: "ប្រវត្តិការងាដែលបានសម្រេច",
         exp: [
@@ -159,6 +191,14 @@ const translations = {
                 icon: '&#128187;'
             }
         ],
+        // Contact Us
+        contact_title: "Get in touch",
+        contact_subtitle: "Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.", 
+        last_name: "Last Name",
+        first_name: "First Name",
+        email: "Email",
+        message: "Message",
+        send_message: "Send Message",
     }
 };
 

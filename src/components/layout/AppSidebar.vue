@@ -8,24 +8,27 @@
                 <h1 class="text-xl font-bold mb-1">BOY NHOR</h1>
                 <p class="text-sm text-gray-300">{{ t.profile_job_title }}</p>
             </div>
-            <nav class="space-y-2 scroll-smooth md:scroll-auto max-h-screen overflow-y-auto" >
+            <nav class="space-y-0 scroll-smooth md:scroll-auto max-h-screen overflow-y-auto" >
                 <router-link to="/" class="nav-item flex items-center rounded-r-lg">
-                    <span class="mr-2">&#9881;</span> {{ t.nav_about }}
+                    <span class="mr-2">&#128100;</span> {{ t.nav_about }}
                 </router-link>
                 <router-link to="/education" class="nav-item flex items-center rounded-r-lg">
                     <span class="mr-2">&#127891;</span> {{ t.nav_education }}
                 </router-link>
                 <router-link to="/skills" class="nav-item flex items-center rounded-r-lg">
-                    <span class="mr-2">&#9999;</span> {{ t.nav_skills }}
+                    <span class="mr-2">&#9881;</span> {{ t.nav_skills }}
                 </router-link>
                 <router-link to="/experience" class="nav-item flex items-center rounded-r-lg">
                     <span class="mr-2">&#128188;</span> {{ t.nav_experience }}
                 </router-link>
                 <router-link to="/portfolio" class="nav-item flex items-center rounded-r-lg">
-                    <span class="mr-2">&#128247;</span> {{ t.nav_portfolio }}
+                    <span class="mr-2">&#128073;</span> {{ t.nav_portfolio }}
                 </router-link>
                 <router-link to="/hobbies" class="nav-item flex items-center rounded-r-lg">
-                    <span class="mr-2">&#128247;</span> {{ t.nav_hobbies }}
+                    <span class="mr-2">&#127968;</span> {{ t.nav_hobbies }}
+                </router-link>
+                <router-link to="/contact" class="nav-item flex items-center rounded-r-lg">
+                    <span class="mr-2">&#128222;</span> {{ t.nav_contact }}
                 </router-link>
             </nav>
         </div>
@@ -62,7 +65,7 @@ const { t } = useLanguageStore();
 .nav-item.router-link-active {
     color: white;
     background-color: #4a3666;
-    border-left: 4px solid #9333ea;
+    border-left: 4px solid #6512b3;
     font-weight: bold;
 }
 </style>
